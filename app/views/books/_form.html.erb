@@ -1,0 +1,17 @@
+<%= form_for(@book) do |f| %>
+<ul>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+</ul>
+<ul>
+  <%= f.label :quantity %>
+  <%= f.text_field :quantity %>
+</ul>
+<ul>
+  <%= f.label :price %>
+  <%= f.text_field :price %>
+</ul>
+<ul>
+  <%= f.submit %>
+</ul>
+<% end %>
